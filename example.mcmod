@@ -1,0 +1,16 @@
+'mod.mcjava'
+mod-group = 'com.example'
+mod-author = 'git@github.com:myuser/mymod-mod.mcjava'
+mod-version = 1.0
+
+minecraft = 1.19.3
+
+
+function Mud-ball() {
+    minecraft-name = 'mymod:my_item_name'
+    minecraft-display = 'My Display'
+    minecraft-base = 'minecraft:snowball'
+    minecraft-item-texture = 'https://static.planetminecraft.com/files/image/minecraft/texture-pack/2020/830/13782655-xgxgx_l.webp'
+}
+
+function builtin on start() { function all }
